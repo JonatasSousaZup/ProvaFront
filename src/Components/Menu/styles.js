@@ -1,15 +1,16 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-   height: 80px;
-    position: absolute;
-    left: 5%;
-    right: 5%;
+    height: 100%;
+    position: absolute;    
     padding: 0 30px;
-    background: rgb(0, 55, 82);
-    color: #FFF;
-
+    background: #FFF;
+    color: black;
+    width: 160px;    
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+
+.todos{
+    color: grey;
+    flex-direction: column;
+}
 `;
