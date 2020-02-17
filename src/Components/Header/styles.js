@@ -2,9 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     height: 80px;
-    position: absolute;
-    left: 5%;
-    right: 5%;
     padding: 0 30px;
     background: rgb(0, 55, 82);
     color: #FFF;
@@ -18,8 +15,6 @@ export const Container = styled.div`
     }
 
     input {
-        justify-content: center;
-        align-items: center;
         height: 35px;
         width: 700px;
         border-radius: 30px;
