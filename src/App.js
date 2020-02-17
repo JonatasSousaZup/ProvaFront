@@ -6,8 +6,9 @@ import Menu from './Components/Menu';
 function App() {
   return (
     <div>
-      <Menu/>
+      
       <Header />
+      <Menu/>
       <GlobalStyle />
     </div>
   );

@@ -1,16 +1,25 @@
 import React, { Fragment } from 'react';
 
-import Containder from './styles'
-import { Container } from '../Header/styles';
+import {Container} from './styles'
 
 export default function Menu (){
 
     return (
         <div>
+            <Container>
             
-                <label>
-                <p> Todos </p>
-                </label>
+                <span className="todos"> 
+                
+                <h3>Todos</h3>
+                <h3>Atendidos</h3>
+                <h3>Lixeira</h3> 
+    
+                </span> 
+                
+
+            
+            </Container>
+               
                 
            
         </div>
