@@ -18,10 +18,16 @@ export const Container = styled.div`
         height: 35px;
         width: 700px;
         border-radius: 30px;
+        text-align: center;
+        font-size: 18px;
     }
 
     .userIcon {
         height: 40px;
         width: 50px
+    }
+
+    .searchIcon {
+        width: 30px;
     }
 `;

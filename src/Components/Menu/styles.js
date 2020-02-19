@@ -2,15 +2,13 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     height: 100%;
-    position: absolute;    
-    padding: 0 30px;
+    position: absolute;
     background: #FFF;
-    color: black;
-    width: 160px;    
-    display: flex;
+    width: 150px;    
 
-.todos{
-    color: grey;
-    flex-direction: column;
-}
+    ul{
+        font-size: 20px;
+        color: gray;
+    }
+
 `;
