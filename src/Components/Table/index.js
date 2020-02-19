@@ -8,9 +8,19 @@ export default function Table() {
             <Container>
                 <table>
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td>Ana</td>
+                        <td>ana@ana</td>
+                        <td>SãoPaulo-SP</td>
+                    </tr>
+                    <tr>
+                        <td>Jhool</td>
+                        <td>jhool@jhool</td>
+                        <td>Narnia-NAR</td>
+                    </tr>
+                    <tr>
+                        <td>Tiago</td>
+                        <td>tiago@tiago</td>
+                        <td>Atlantida-ATL</td>
                     </tr>
                 </table>
             </Container>

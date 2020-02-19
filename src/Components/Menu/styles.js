@@ -4,14 +4,13 @@ export const Container = styled.div`
     height: 100%;
     position: absolute;
     background: #FFF;
-    width: 180px;    
+    width: 160px;    
 
     ul{
-        margin-top: 15%;
+        margin-top: 10%;
         position: absolute;
         left: 15%;
         font-size: 20px;
         color: gray;
     }
-
 `;
