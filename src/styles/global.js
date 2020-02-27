@@ -1,13 +1,12 @@
 import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
-    @import url('https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap');
-    
     * {
         margin: 0;
         padding: 0;
         outline: 0;
         box-sizing: border-box;
+        font-family: sans-serif;
     }
 
     html, body, #root {
@@ -15,13 +14,8 @@ export default createGlobalStyle`
     }
 
     body {
-        font: 14px 'roboto', sans-serif;
         background: #ecf1f8;
-        color: #333;
+        color: gray;
         -webkit-font-smoothing: antialiased !important;
-    }
-
-    ul {
-        list-style: none;
     }
 `;
