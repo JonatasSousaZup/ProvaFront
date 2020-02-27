@@ -11,6 +11,7 @@ export const Container = styled.div`
         font-size: 18px;
         box-shadow: 3px 4px 6px gray;
         border-radius: 10px;
+        text-align: center;
 
     }
 
