@@ -1,8 +1,10 @@
 import React from 'react';
 
-import { Container } from './styles'
+
+import { Container, Linha } from './styles'
 import { MdDoneAll, MdSelectAll } from 'react-icons/md'
 import { GoTrashcan } from 'react-icons/go'
+
 
 export default function Menu() {
 
@@ -10,9 +12,9 @@ export default function Menu() {
         <div>
             <Container>
                 <ul>
-                    <li><MdSelectAll/> Todos</li>
-                    <li><MdDoneAll/> Atendidos</li>
-                    <li><GoTrashcan/> Lixeira</li>
+                    <Linha active={true}><MdSelectAll/> Todos</Linha>
+                    <Linha><MdDoneAll/> Atendidos</Linha>
+                    <Linha><GoTrashcan/> Lixeira</Linha>
                 </ul>
             </Container>
         </div>

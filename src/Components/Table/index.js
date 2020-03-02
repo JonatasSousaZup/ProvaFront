@@ -34,14 +34,6 @@ export default function Table() {
                         <td><AiOutlineHome /> Ferraz de Vasconcelos-SP</td>
                         <td><GoTrashcan /> <MdSelectAll /> <MdDoneAll /></td>
                     </tr>
-                    {/* <tr>
-                        <th><img src="https://api.adorable.io/avatars/face/eyes4/nose3/mouth7/8e8895" /></th>
-                        <th>Bruno</th>
-                        <th><MdEmail /> bruno.augusto@zup.com.br</th>
-                        <th><FiPhone /> (11)90000-1111</th>
-                        <th><AiOutlineHome /> Ferraz de Vasconcelos-SP</th>
-                        <th><GoTrashcan /> <MdSelectAll /> <MdDoneAll /></th>
-                    </tr> */}
                 </table>
             </Container>
         </div>

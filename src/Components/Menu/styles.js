@@ -18,5 +18,7 @@ export const Container = styled.div`
     li {
         padding: 5px;
     }
-
+`;
+export const Linha = styled.li`
+    color: ${({active}) => active ? "green" : "inherit"}
 `;
