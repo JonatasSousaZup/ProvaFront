@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter, Route, Switch, Redirect} from 'react-router-dom'
 
 import GlobalStyle from './styles/global';
 import Header from './Components/Header/index'
@@ -11,6 +12,7 @@ function App() {
       <Menu />
       <Table />
       <GlobalStyle />
+      <Route/>
     </div>
   );
 }
