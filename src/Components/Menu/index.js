@@ -18,6 +18,8 @@ export default function Menu() {
                     <Linha><GoTrashcan/> Lixeira</Linha>
                 </ul>
             </Container>
+         <Route exact path="/Atendido" component={Atendido}/>
+
         </div>
     )
 }
