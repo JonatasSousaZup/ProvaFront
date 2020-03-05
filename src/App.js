@@ -12,8 +12,10 @@ function App() {
       <Menu />
       <Table />
       <GlobalStyle />
-      <Route/>
+      <Route exact path="/atendido" component={Atendido}/>
+
     </div>
+    
   );
 }
 
