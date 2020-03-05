@@ -12,8 +12,6 @@ function App() {
       <Menu />
       <Table />
       <GlobalStyle />
-      <Route exact path="/atendido" component={Atendido}/>
-
     </div>
     
   );
