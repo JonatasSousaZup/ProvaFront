@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const Container = styled.div`
     table {
         background: #FFF;
-        position: absolute;
         height: 200px;
         width: 70%;
         left: 300px;
