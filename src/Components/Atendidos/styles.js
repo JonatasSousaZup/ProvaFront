@@ -1,6 +1,4 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
-
 
 export const Container = styled.div`
         display: flex;
@@ -36,12 +34,5 @@ export const Container = styled.div`
     td.cidade {
         padding-right: 80px;
         padding-left: 20px;
-    }
-`;
-export const Xablau = styled(Link)`
-     img {
-        border-radius: 200px;
-        height: 40px;
-        margin-left: 15px; 
     }
 `;
