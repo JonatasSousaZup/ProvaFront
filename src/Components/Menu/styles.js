@@ -17,5 +17,5 @@ export const Container = styled.div`
 export const Linha = styled(Link)`
     text-decoration: none;
     padding: 5px;
-    color: ${({active}) => active ? "green" : "inherit"}
+    color: ${({active}) => active ? "rgba(157, 255, 0, 1)" : "inherit"}
 `;
