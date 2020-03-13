@@ -6,6 +6,7 @@ import Header from './Components/Header/index'
 import Menu from './Components/Menu';
 import Table from './Components/Table';
 import Atendidos from './Components/Atendidos'
+import Perfil from './Components/Perfil'
 import { MainGrid } from './Components/style';
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
           </Route >
           <Route path="/atendidos">
             <Atendidos />
+          </Route>
+          <Route path="/perfil">
+            <Perfil />
           </Route>
         </Switch>
         </MainGrid>

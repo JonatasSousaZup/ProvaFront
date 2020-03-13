@@ -4,6 +4,8 @@ import { MdSelectAll, MdDoneAll, MdEmail } from 'react-icons/md'
 import { FiPhone } from 'react-icons/fi'
 import { GoTrashcan } from 'react-icons/go'
 import { AiOutlineHome } from 'react-icons/ai'
+import { Link } from 'react-router-dom';
+
 
 export default function Table() {
     return (
@@ -11,12 +13,15 @@ export default function Table() {
             <Container>
                 <table>
                     <tr>
+                        <Link to="/perfil">
                         <td><img src="https://miro.medium.com/max/570/1*EelUYA6BOTNXtuRjSlaqHw.png" /></td>
+                        </Link>
                         <td className="nome">Jonatas</td>
                         <td className="email"><MdEmail /> jonatas.sousa@zup.com.br</td>
                         <td className="telefone"><FiPhone /> (11)96666-7777</td>
                         <td className="cidade"><AiOutlineHome /> Ferraz de Vasconcelos-SP</td>
                         <td className="icones"><GoTrashcan /> <MdSelectAll /> <MdDoneAll /></td>
+                        
                     </tr>
                     <tr>
                         <td><img src="https://api.adorable.io/avatars/hi_mom" /></td>
