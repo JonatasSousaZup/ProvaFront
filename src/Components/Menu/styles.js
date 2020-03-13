@@ -6,13 +6,9 @@ export const Container = styled.div`
     height: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 0 10px;
-    padding-top: 10px;
+    padding: 20px;
     box-shadow: 3px 4px 6px gray;
-
     font-size: 25px;
-    padding: 10px;
-
 `;
 export const Linha = styled(Link)`
     text-decoration: none;
