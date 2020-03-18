@@ -1,10 +1,7 @@
 import React from 'react';
-
 import { Container, Linha } from './styles'
 import { MdDoneAll, MdSelectAll } from 'react-icons/md'
 import { GoTrashcan } from 'react-icons/go'
-// import Atendido from './Components/Atendido'
-import { Link } from 'react-router-dom'
 
 export default function Menu() {
 
