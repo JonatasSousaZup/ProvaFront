@@ -14,8 +14,8 @@ export default createGlobalStyle`
     }
 
     body {
-        background: #ecf1f8;
-        color: gray;
+        background: #e6e7e8;
+        color: #636466;
         -webkit-font-smoothing: antialiased !important;
     }
 `;
