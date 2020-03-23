@@ -8,6 +8,7 @@ export default function Table() {
             <Container>
                 <Tabela>
                     <TableItem
+                        imagem="https://miro.medium.com/max/570/1*EelUYA6BOTNXtuRjSlaqHw.png"
                         nome="Tiago"
                         email="tiago.souza@zup.com.br"
                         telefone="(11)95455-6555"
