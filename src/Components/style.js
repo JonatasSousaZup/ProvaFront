@@ -6,3 +6,4 @@ export const MainGrid = styled.div`
     height: calc(100vh - 90px)
 
 `;
+

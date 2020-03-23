@@ -1,16 +1,22 @@
 import React from 'react';
+import TableItem from '../TableItem';
+
 import { Container , Tabela , Td , Img , Tr } from './styles';
-import { MdSelectAll, MdDoneAll, MdEmail } from 'react-icons/md'
-import { FiPhone } from 'react-icons/fi'
-import { GoTrashcan } from 'react-icons/go'
-import { AiOutlineHome } from 'react-icons/ai'
-import { Link } from 'react-router-dom';
+
 
 export default function Table() {
     return (
         <div>
-            <Container>
-                <Tabela>
+            <TableItem 
+            nome="Tiago"
+            email="Tiago.Souza@zup.com.br"
+            telefone="(11)8560864806/"
+            cidade="São paulo"
+            />
+
+             {/* <Container>
+            
+                 <Tabela>
                     <Tr>
                         <Link to="/perfil">
                             <Td><Img src="https://miro.medium.com/max/570/1*EelUYA6BOTNXtuRjSlaqHw.png" /></Td>
@@ -41,8 +47,8 @@ export default function Table() {
                         <Td className="cidade"><AiOutlineHome /> Ferraz de Vasconcelos-SP</Td>
                         <Td className="icones"><GoTrashcan /> <MdSelectAll /> <MdDoneAll /></Td>
                     </Tr>
-                </Tabela>
-            </Container>
+                </Tabela> 
+            </Container> */}
         </div>
     );
 }
