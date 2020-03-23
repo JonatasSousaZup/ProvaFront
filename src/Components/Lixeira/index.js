@@ -8,19 +8,19 @@ export default function Lixeira() {
         <div>
             <Container>
                 <Tabela>
-                     <TableItem
+                    <TableItem
                         nome="Joao"
-                        email="Joao.Souza@zup.com.br"
+                        email="joao.souza@zup.com.br"
                         telefone="(11)95455-6555"
                         cidade="São Paulo-SP"
                     />
-                     <TableItem
+                    <TableItem
                         nome="Maria"
-                        email="Maria.Souza@zup.com.br"
+                        email="maria.souza@zup.com.br"
                         telefone="(11)95455-6555"
                         cidade="São Paulo-SP"
                     />
-                   
+
                 </Tabela>
             </Container>
 

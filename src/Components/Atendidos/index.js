@@ -9,13 +9,14 @@ export default function Table() {
                 <Tabela>
                     <TableItem
                         nome="Tiago"
-                        email="Tiago.Souza@zup.com.br"
+                        email="tiago.souza@zup.com.br"
                         telefone="(11)95455-6555"
                         cidade="São Paulo-SP"
                     />
-                   
                 </Tabela>
             </Container>
+
+
             {/* <Container>
                 <Tabela>
                     <Tr>
