@@ -15,10 +15,10 @@ export default function Table() {
                         cidade="São Paulo-SP"
                     />
                     <TableItem
-                        nome="Tiago"
-                        email="Tiago.Souza@zup.com.br"
+                        nome="Jonatas"
+                        email="JOw.Souza@zup.com.br"
                         telefone="(11)97512-5465"
-                        cidade="São Paulo-SP"
+                        cidade="Ferraz de Vanconcelos-SP"
                     />
                 </Tabela>
             </Container>
