@@ -1,26 +1,29 @@
 import React from 'react';
 import TableItem from '../TableItem';
-
-import { Container , Tabela , Td , Img , Tr } from './styles';
+import { Container, Tabela } from './styles';
 
 
 export default function Table() {
     return (
         <div>
-            <TableItem 
-            nome="Tiago"
-            email="Tiago.Souza@zup.com.br"
-            telefone="(11)8560864806/"
-            cidade="São paulo"
-            />
-            <TableItem 
-            nome="Tiago"
-            email="Tiago.Souza@zup.com.br"
-            telefone="(11)8560864806/"
-            cidade="São paulo"
-            />
+            <Container>
+                <Tabela>
+                    <TableItem
+                        nome="Tiago"
+                        email="Tiago.Souza@zup.com.br"
+                        telefone="(11)95455-6555"
+                        cidade="São Paulo-SP"
+                    />
+                    <TableItem
+                        nome="Tiago"
+                        email="Tiago.Souza@zup.com.br"
+                        telefone="(11)97512-5465"
+                        cidade="São Paulo-SP"
+                    />
+                </Tabela>
+            </Container>
 
-             {/* <Container>
+            {/* <Container>
             
                  <Tabela>
                     <Tr>
