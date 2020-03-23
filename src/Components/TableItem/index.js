@@ -11,11 +11,11 @@ export default function TableItem(props) {
     return (
         <Tr onClick={() => history.push("/perfil")}>
             <Td><Img src="https://miro.medium.com/max/570/1*EelUYA6BOTNXtuRjSlaqHw.png" /></Td>
-            <Td className="nome">{props.nome}</Td>
-            <Td className="email"><MdEmail /> {props.email} </Td>
-            <Td className="telefone"><FiPhone /> {props.telefone} </Td>
-            <Td className="cidade"><AiOutlineHome /> {props.cidade} </Td>
-            <Td className="icones"><GoTrashcan />  <MdSelectAll />  <MdDoneAll /></Td>
+            <Td className="nome"> {props.nome}</Td>
+            <Td className="email"><MdEmail /> {props.email}</Td>
+            <Td className="telefone"><FiPhone /> {props.telefone}</Td>
+            <Td className="cidade"><AiOutlineHome /> {props.cidade}</Td>
+            <Td className="icones"> <GoTrashcan /> <MdSelectAll /> <MdDoneAll /> </Td>
         </Tr>
     )
 }

@@ -2,7 +2,6 @@ import React from 'react';
 import TableItem from '../TableItem';
 import { Container, Tabela } from './styles';
 
-
 export default function Table() {
     return (
         <div>
@@ -10,13 +9,13 @@ export default function Table() {
                 <Tabela>
                     <TableItem
                         nome="Tiago"
-                        email="Tiago.Souza@zup.com.br"
+                        email="tiago.souza@zup.com.br"
                         telefone="(11)95455-6555"
                         cidade="São Paulo-SP"
                     />
                     <TableItem
                         nome="Jonatas"
-                        email="JOw.Souza@zup.com.br"
+                        email="jonatas.sousa@zup.com.br"
                         telefone="(11)97512-5465"
                         cidade="Ferraz de Vanconcelos-SP"
                     />
