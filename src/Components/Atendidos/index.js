@@ -1,15 +1,22 @@
 import React from 'react';
-import { Container , Tabela , Td , Tr , Img } from './styles';
-import { MdSelectAll, MdEmail } from 'react-icons/md'
-import { FiPhone } from 'react-icons/fi'
-import { GoTrashcan } from 'react-icons/go'
-import { AiOutlineHome } from 'react-icons/ai'
-import { Link } from 'react-router-dom';
+import TableItem from '../TableItem';
+import { Container, Tabela } from './styles';
 
 export default function Table() {
     return (
         <div>
             <Container>
+                <Tabela>
+                    <TableItem
+                        nome="Tiago"
+                        email="Tiago.Souza@zup.com.br"
+                        telefone="(11)95455-6555"
+                        cidade="São Paulo-SP"
+                    />
+                   
+                </Tabela>
+            </Container>
+            {/* <Container>
                 <Tabela>
                     <Tr>
                         <Link to="/perfil">
@@ -42,7 +49,7 @@ export default function Table() {
                         <Td className="icones"><GoTrashcan /> <MdSelectAll /> </Td>
                     </Tr>
                 </Tabela>
-            </Container>
+            </Container> */}
         </div>
     );
 }

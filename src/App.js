@@ -7,6 +7,7 @@ import Menu from './Components/Menu';
 import Table from './Components/Table';
 import Atendidos from './Components/Atendidos'
 import Perfil from './Components/Perfil'
+import Lixeira from './Components/Lixeira'
 import { MainGrid } from './Components/style';
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
           </Route>
           <Route path="/perfil">
             <Perfil />
+          </Route>
+          <Route path="/lixeira">
+            <Lixeira />
           </Route>
         </Switch>
         </MainGrid>
