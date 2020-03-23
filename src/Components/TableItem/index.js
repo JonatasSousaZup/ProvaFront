@@ -10,7 +10,7 @@ export default function TableItem(props) {
     const history = useHistory()
     return (
         <Tr onClick={() => history.push("/perfil")}>
-            <Td><Img src="https://miro.medium.com/max/570/1*EelUYA6BOTNXtuRjSlaqHw.png" /></Td>
+            <Td><Img src={props.imagem} /></Td>
             <Td className="nome"> {props.nome}</Td>
             <Td className="email"><MdEmail /> {props.email}</Td>
             <Td className="telefone"><FiPhone /> {props.telefone}</Td>

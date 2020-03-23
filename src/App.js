@@ -14,24 +14,29 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        <Header />
-        <MainGrid>
-        <Menu />
         <Switch>
-          <Route exact path="/" >
-            <Table />
-          </Route >
-          <Route path="/atendidos">
-            <Atendidos />
-          </Route>
           <Route path="/perfil">
             <Perfil />
           </Route>
-          <Route path="/lixeira">
-            <Lixeira />
+          <Route path="/">
+            <Header />
+            <MainGrid>
+              <Menu />
+              <Switch>
+                <Route exact path="/" >
+                  <Table />
+                </Route >
+                <Route path="/atendidos">
+                  <Atendidos />
+                </Route>
+
+                <Route path="/lixeira">
+                  <Lixeira />
+                </Route>
+              </Switch>
+            </MainGrid>
           </Route>
         </Switch>
-        </MainGrid>
         <GlobalStyle />
       </BrowserRouter>
     </div>
