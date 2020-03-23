@@ -13,6 +13,12 @@ export default function Table() {
             telefone="(11)8560864806/"
             cidade="São paulo"
             />
+            <TableItem 
+            nome="Tiago"
+            email="Tiago.Souza@zup.com.br"
+            telefone="(11)8560864806/"
+            cidade="São paulo"
+            />
 
              {/* <Container>
             

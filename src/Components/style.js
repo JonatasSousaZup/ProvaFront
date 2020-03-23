@@ -7,3 +7,4 @@ export const MainGrid = styled.div`
 
 `;
 
+
