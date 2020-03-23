@@ -1,6 +1,10 @@
 import React from 'react'
 import { useHistory } from 'react-router-dom'
-
+import { MdSelectAll, MdDoneAll, MdEmail } from 'react-icons/md'
+import { FiPhone } from 'react-icons/fi'
+import { GoTrashcan } from 'react-icons/go'
+import { AiOutlineHome } from 'react-icons/ai'
+import { Link } from 'react-router-dom';
 
 export default function TableItem(props) {
     const history = useHistory()
