@@ -7,8 +7,13 @@ export const Img = styled.img`
 `;
 
 export const Td = styled.td`
-    padding: 10px;
+    padding: 15px;
 `;
 
 export const Tr = styled.tr`
+    border-bottom: 2px solid #939598;
+
+    :last-child {
+        border-bottom: none;
+    }
 `;
