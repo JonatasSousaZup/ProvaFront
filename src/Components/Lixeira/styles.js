@@ -12,4 +12,5 @@ export const Tabela = styled.table`
         margin-top: 20px;
         border-radius: 10px;
         box-shadow: 3px 4px 6px #939598;
+        border-collapse: collapse;
 `;

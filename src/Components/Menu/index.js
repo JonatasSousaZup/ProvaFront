@@ -4,7 +4,6 @@ import { MdDoneAll, MdSelectAll } from 'react-icons/md'
 import { GoTrashcan } from 'react-icons/go'
 
 export default function Menu() {
-
     return (
         <Container>
             <Linha to="/" active={true}><MdSelectAll /> Todos</Linha>
