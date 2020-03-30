@@ -1,7 +1,17 @@
-import React from 'react'
+import React from 'react';
+import { Container, Header, Section } from './styles';
+import { FaChevronCircleLeft } from 'react-icons/fa';
 
-export default function Perfil () {
+export default function Perfil() {
     return (
-        <h1> Perfil Cliente</h1>
-    )
+        <Container>
+            <Header>
+                <FaChevronCircleLeft className="leftIcon" />
+            </Header>
+
+            <Section>
+                {/* <img src="https://miro.medium.com/max/570/1*EelUYA6BOTNXtuRjSlaqHw.png"/> */}
+            </Section>
+        </Container>
+    );
 }
