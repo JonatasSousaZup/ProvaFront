@@ -1,11 +1,10 @@
 import React from 'react';
-import { Container, Header, Section, Button, Img, Link } from './styles';
+import { Container, Header, Section, Img, Linha } from './styles';
 
 import { FaChevronCircleLeft, FaRegUser } from 'react-icons/fa';
 import { FiMapPin, FiPhone } from 'react-icons/fi';
 import { GoMail, GoCalendar } from 'react-icons/go';
 import { TiKeyOutline } from 'react-icons/ti';
-import { Linha } from '../Menu/styles';
 
 
 
@@ -18,12 +17,12 @@ export default function Perfil() {
 
             <Section>
                 <Img src="https://miro.medium.com/max/570/1*EelUYA6BOTNXtuRjSlaqHw.png" />
-                <span >< FaRegUser /></span>
-                <span >< GoMail /></span>
-                <span>< GoCalendar /></span>
-                <span>< FiMapPin /></span>
-                <span>< FiPhone /></span>
-                <span>< TiKeyOutline/></span>
+                <span className="Icones" >< FaRegUser /></span>
+                <span className="Icones">< GoMail /></span>
+                <span className="Icones">< GoCalendar /></span>
+                <span className="Icones">< FiMapPin /></span>
+                <span className="Icones">< FiPhone /></span>
+                <span className="Icones">< TiKeyOutline/></span>
             
             </Section>
         </Container>

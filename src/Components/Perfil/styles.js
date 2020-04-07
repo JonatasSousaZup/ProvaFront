@@ -51,7 +51,7 @@ export const Img = styled.img`
     border-radius: 200px;
     height: 35%;
 `;
-export const Icons = styled.span`
+export const Icones = styled.span`
     
     position: relative;
     margin-top: 100px;
@@ -59,6 +59,7 @@ export const Icons = styled.span`
 `;
 export const Linha = styled(Link)`
     text-decoration: none;
-    padding: 5px;
+    padding: 100px;
     color: ${({active}) => active ? "#8dc63f" : "inherit"}
+    
 `;
