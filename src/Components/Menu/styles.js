@@ -11,7 +11,8 @@ export const Container = styled.div`
     font-size: 25px;
 `;
 export const Linha = styled(Link)`
+    
     text-decoration: none;
-    padding: 5px;
+    padding: 10px;
     color: ${({active}) => active ? "#8dc63f" : "inherit"}
 `;
