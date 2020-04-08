@@ -46,7 +46,7 @@ export const Linha = styled(Link)`
         color: #FFF;
         height: 40px;
         width: 40px;
-        margin-top: 18px;
-        margin-left: 18px;
+        margin-top: 17px;
+        margin-left: 17px;
     }
 `;
