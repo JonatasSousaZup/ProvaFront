@@ -24,7 +24,7 @@ export const Section = styled.section`
     height: 600px;
     position: absolute;
     background: #FFF;
-    border-radius: 10px;
+    border-radius: 2px;
     box-shadow: 5px 5px 5px #939598;
 
     .Icons {
