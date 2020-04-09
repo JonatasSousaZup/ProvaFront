@@ -18,13 +18,13 @@ export const Header = styled.header`
 
 export const Section = styled.section`
     width: 100%;
-    max-width: 600px;
-    margin-top: 70px;
+    max-width: 650px;
+    margin-top: 120px;
     margin-bottom: 30px;
-    height: 600px;
+    height: 700px;
     position: absolute;
     background: #FFF;
-    border-radius: 10px;
+    border-radius: 4px;
     box-shadow: 5px 5px 5px #939598;
 
     .Icons {
