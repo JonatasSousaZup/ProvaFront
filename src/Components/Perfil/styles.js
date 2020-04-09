@@ -18,10 +18,10 @@ export const Header = styled.header`
 
 export const Section = styled.section`
     width: 100%;
-    max-width: 600px;
-    margin-top: 70px;
+    max-width: 650px;
+    margin-top: 120px;
     margin-bottom: 30px;
-    height: 600px;
+    height: 700px;
     position: absolute;
     background: #FFF;
     border-radius: 2px;
@@ -46,7 +46,7 @@ export const Linha = styled(Link)`
         color: #FFF;
         height: 40px;
         width: 40px;
-        margin-top: 18px;
-        margin-left: 18px;
+        margin-top: 17px;
+        margin-left: 17px;
     }
 `;
