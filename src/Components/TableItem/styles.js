@@ -8,9 +8,13 @@ export const Img = styled.img`
 
 export const Td = styled.td`
     padding: 15px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
 `;
 
 export const Tr = styled.tr`
+    width: 100%;
     border-bottom: 2px solid #939598;
 
     :last-child {

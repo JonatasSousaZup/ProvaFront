@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
+    flex-direction: column;
     height: 100vh;
     margin: 0 auto;
     display: flex;
@@ -17,20 +18,28 @@ export const Header = styled.header`
 `;
 
 export const Section = styled.section`
+    display: grid;
+    grid-template-rows: 4fr 2fr 1fr;
+
     width: 100%;
     max-width: 650px;
     margin-top: 120px;
     margin-bottom: 30px;
     height: 700px;
-    position: absolute;
     background: #FFF;
-    border-radius: 2px;
+    border-radius: 4px;
     box-shadow: 5px 5px 5px #939598;
 
     .Icons {
+        :hover {color: green}
         height: 50px;
         width: 50px;
+        
     }
+`;
+export const IconsContainer = styled.div`
+    display: flex;
+    justify-content: space-around;
 `;
 
 export const Img = styled.img`
