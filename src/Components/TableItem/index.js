@@ -1,8 +1,9 @@
 import React from 'react'
 import { useHistory } from 'react-router-dom'
-import { MdSelectAll, MdDoneAll, MdEmail } from 'react-icons/md'
+import { MdSelectAll, MdDoneAll } from 'react-icons/md'
 import { FiPhone } from 'react-icons/fi'
-import { GoTrashcan } from 'react-icons/go'
+import { FaRegTrashAlt } from 'react-icons/fa'
+import { GoMail } from 'react-icons/go'
 import { AiOutlineHome } from 'react-icons/ai'
 import { Td, Tr, Img } from './styles'
 
@@ -12,10 +13,10 @@ export default function TableItem(props) {
         <Tr onClick={() => history.push("/perfil")}>
             <Td><Img src={props.imagem} /></Td>
             <Td className="nome"> {props.nome}</Td>
-            <Td className="email"><MdEmail /> {props.email}</Td>
+            <Td className="email"><GoMail /> {props.email}</Td>
             <Td className="telefone"><FiPhone /> {props.telefone}</Td>
             <Td className="cidade"><AiOutlineHome /> {props.cidade}</Td>
-            <Td className="icones"> <GoTrashcan /> <MdSelectAll /> <MdDoneAll /> </Td>
+            <Td className="icones"> <FaRegTrashAlt /> <MdSelectAll /> <MdDoneAll /> </Td>
         </Tr>
     )
 }

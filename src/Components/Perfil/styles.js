@@ -31,10 +31,13 @@ export const Section = styled.section`
     box-shadow: 5px 5px 5px #939598;
 
     .Icons {
-        :hover {color: green}
         height: 50px;
         width: 50px;
-        
+        transition: color 0.6s;
+
+        :hover {
+            color: #8dc63f
+            }        
     }
 `;
 export const IconsContainer = styled.div`
