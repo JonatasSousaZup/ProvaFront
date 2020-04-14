@@ -15,19 +15,19 @@ export default function Perfil() {
 
             <Section>
                 <div>
-                <Img src="https://miro.medium.com/max/570/1*EelUYA6BOTNXtuRjSlaqHw.png" />
+                    <Img src="https://miro.medium.com/max/570/1*EelUYA6BOTNXtuRjSlaqHw.png" />
                 </div>
                 <div>
-                 <span> {content.label}</span>
-                 <span>{content.value}</span>
+                    <span> {content.label}</span>
+                    <span>{content.value}</span>
                 </div>
                 <IconsContainer>
-                <FaRegUser className="Icons" onMouseEnter={ () => setContent({ label:"Hi, myname is", value:"Tiago" })} />
-                <GoMail className="Icons" />
-                <GoCalendar className="Icons" />
-                <FiMapPin className="Icons" />
-                <FiPhone className="Icons" />
-                <TiKeyOutline className="Icons" />
+                    <FaRegUser className="Icons" onMouseEnter={() => setContent({ label: "Hi, myname is", value: "Tiago" })} />
+                    <GoMail className="Icons" />
+                    <GoCalendar className="Icons" />
+                    <FiMapPin className="Icons" />
+                    <FiPhone className="Icons" />
+                    <TiKeyOutline className="Icons" />
                 </IconsContainer>
             </Section>
         </Container>
