@@ -6,11 +6,9 @@ export const Container = styled.div`
 `;
 
 export const Tabela = styled.table`
-
-        width: 80%;
+        width: 85%;
         background: #FFF;
         font-size: 18px;
-        padding: 5px;
         margin-top: 20px;
         border-radius: 10px;
         box-shadow: 3px 4px 6px #939598;
