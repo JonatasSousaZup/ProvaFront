@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Section, Img, Linha, IconsContainer } from './styles';
+import { Container, Section, Img, Linha, IconsContainer, Info, H1 } from './styles';
 import { FaChevronCircleLeft, FaRegUser } from 'react-icons/fa';
 import { FiMapPin, FiPhone } from 'react-icons/fi';
 import { GoMail, GoCalendar } from 'react-icons/go';
@@ -15,17 +15,17 @@ export default function Perfil() {
                 <div>
                     <Img src="https://miro.medium.com/max/570/1*EelUYA6BOTNXtuRjSlaqHw.png" />
                 </div>
-                <div>
+                <Info>
                     <span> {content.label}</span>
-                    <h1>{content.value}</h1>
-                </div>
+                    <H1>{content.value}</H1>
+                </Info>
                 <IconsContainer>
-                    <FaRegUser className="Icons" onMouseEnter={() => setContent({ label: "Hi, myname is", value: "Tiago" })} />
-                    <GoMail className="Icons" />
-                    <GoCalendar className="Icons" />
-                    <FiMapPin className="Icons" />
-                    <FiPhone className="Icons" />
-                    <TiKeyOutline className="Icons" />
+                    <FaRegUser className="Icons" onMouseEnter={() => setContent({ label: "Olá, meu nome é ", value: "Tiago" })} />
+                    <GoMail className="Icons" onMouseEnter={() => setContent({ label: "Meu endereço de email é ", value: "tiago.souza@zup.com.br" })} />
+                    <GoCalendar className="Icons" onMouseEnter={() => setContent({ label: "Meu aniversário é ", value: "30 de Outubro" })}/>
+                    <FiMapPin className="Icons" onMouseEnter={() => setContent({ label: "Meu endereço é ", value: "São Paulo-SP" })}/>
+                    <FiPhone className="Icons" onMouseEnter={() => setContent({ label: "Meu número de telefone é ", value: "(11) 94155-1462" })}/>
+                    <TiKeyOutline className="Icons" onMouseEnter={() => setContent({ label: "Minha senha é ", value: "4002" })}/>
                 </IconsContainer>
             </Section>
         </Container>

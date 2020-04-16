@@ -15,11 +15,10 @@ export const Section = styled.section`
     display: grid;
     grid-template-rows: 4fr 2fr 1fr;
     width: 100%;
-    max-width: 650px;
-    margin-top: 120px;
+    max-width: 700px;
+    margin-top: 200px;
     margin-bottom: 30px;
-    height: 700px;
-    background: #FFF;
+    height: 600px;
     border-radius: 4px;
     box-shadow: 5px 5px 5px #939598;
     background-image: linear-gradient(#CFCFCF 25vh, #f1f2f2 25vh, #f1f2f2 50vh) ;
@@ -28,7 +27,6 @@ export const Section = styled.section`
         height: 50px;
         width: 50px;
         transition: color 0.5s;
-
         :hover {
             color: #8dc63f
             }        
@@ -37,14 +35,19 @@ export const Section = styled.section`
 export const IconsContainer = styled.div`
     display: flex;
     justify-content: space-around;
+    margin-left: 15vh;
+    margin-right: 15vh;
 `;
 
 export const Img = styled.img`
-    position: relative;
+    display: flex;
+    justify-content: center;
     margin-left: 40vh;
     margin-top: 50px;
     border-radius: 200px;
-    height: 35%;
+    height: 32vh;
+    border: 3px solid #FFF;
+    box-shadow: 2px 2px 1px gray;
 `;
 
 export const Linha = styled(Link)`
@@ -55,4 +58,13 @@ export const Linha = styled(Link)`
         margin-top: 17px;
         margin-left: 17px;
     }
+`;
+
+export const Info = styled.div`
+    display: grid;
+    justify-content: center;
+`;
+
+export const H1 = styled.h1`
+    margin-bottom: 20vh;
 `;
