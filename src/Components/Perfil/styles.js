@@ -22,6 +22,7 @@ export const Section = styled.section`
     background: #FFF;
     border-radius: 4px;
     box-shadow: 5px 5px 5px #939598;
+    background-image: linear-gradient(#CFCFCF 25vh, #f1f2f2 25vh, #f1f2f2 50vh) ;
 
     .Icons {
         height: 50px;
@@ -40,7 +41,7 @@ export const IconsContainer = styled.div`
 
 export const Img = styled.img`
     position: relative;
-    left: 33%;
+    margin-left: 40vh;
     margin-top: 50px;
     border-radius: 200px;
     height: 35%;
