@@ -8,19 +8,12 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-`;
-
-export const Header = styled.header`
-    background: #0e1a33;
-    height: 50vh;
-    width: 100%;
-    margin-bottom: auto;
+    background-image: linear-gradient(#0e1a33 50vh, #e6e7e8 50vh);
 `;
 
 export const Section = styled.section`
     display: grid;
     grid-template-rows: 4fr 2fr 1fr;
-
     width: 100%;
     max-width: 650px;
     margin-top: 120px;
@@ -33,7 +26,7 @@ export const Section = styled.section`
     .Icons {
         height: 50px;
         width: 50px;
-        transition: color 0.6s;
+        transition: color 0.5s;
 
         :hover {
             color: #8dc63f
