@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Container, Header, Section, Img, Linha, IconsContainer } from './styles';
+import { Container, Section, Img, Linha, IconsContainer } from './styles';
 import { FaChevronCircleLeft, FaRegUser } from 'react-icons/fa';
 import { FiMapPin, FiPhone } from 'react-icons/fi';
 import { GoMail, GoCalendar } from 'react-icons/go';
@@ -9,9 +9,7 @@ export default function Perfil() {
     const [content, setContent] = useState({});
     return (
         <Container>
-            <Header>
-                <Linha to="/"> <FaChevronCircleLeft className="leftIcon" /></Linha>
-            </Header>
+            <Linha to="/"> <FaChevronCircleLeft className="leftIcon" /></Linha>
 
             <Section>
                 <div>
@@ -19,7 +17,7 @@ export default function Perfil() {
                 </div>
                 <div>
                     <span> {content.label}</span>
-                    <span>{content.value}</span>
+                    <h1>{content.value}</h1>
                 </div>
                 <IconsContainer>
                     <FaRegUser className="Icons" onMouseEnter={() => setContent({ label: "Hi, myname is", value: "Tiago" })} />
