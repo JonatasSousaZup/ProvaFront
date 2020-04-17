@@ -11,12 +11,22 @@ export const Container = styled.div`
     background-image: linear-gradient(#0e1a33 50vh, #e6e7e8 50vh);
 `;
 
+export const Linha = styled(Link)`
+    .leftIcon {
+        color: #FFF;
+        height: 35px;
+        width: 35px;
+        margin-top: 25vh;
+        margin-right: 205vh;
+    }
+`;
+
 export const Section = styled.section`
     display: grid;
     grid-template-rows: 4fr 2fr 1fr;
     width: 100%;
     max-width: 700px;
-    margin-top: 200px;
+    margin-top: 50px;
     margin-bottom: 30px;
     height: 600px;
     border-radius: 4px;
@@ -50,21 +60,17 @@ export const Img = styled.img`
     box-shadow: 2px 2px 1px gray;
 `;
 
-export const Linha = styled(Link)`
-    .leftIcon {
-        color: #FFF;
-        height: 40px;
-        width: 40px;
-        margin-top: 17px;
-        margin-left: 17px;
-    }
-`;
-
 export const Info = styled.div`
     display: grid;
     justify-content: center;
+    text-align: center;
+`;
+
+export const Span = styled.span`
+    font-size: 20px;
 `;
 
 export const H1 = styled.h1`
+    font-size: 35px;
     margin-bottom: 20vh;
 `;
