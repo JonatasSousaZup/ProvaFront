@@ -8,16 +8,20 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid red;
     background-image: linear-gradient(#0e1a33 50vh, #e6e7e8 50vh);
 `;
 
 export const Linha = styled(Link)`
+    border: 1px solid green;
+    margin-top: 25vh;
+    margin-right: auto;
     .leftIcon {
         color: #FFF;
         height: 35px;
         width: 35px;
-        margin-top: 25vh;
-        margin-right: 205vh;
+        
+        
     }
 `;
 
@@ -52,8 +56,7 @@ export const IconsContainer = styled.div`
 export const Img = styled.img`
     display: flex;
     justify-content: center;
-    margin-left: 40vh;
-    margin-top: 50px;
+    margin: 50px auto 0 auto;
     border-radius: 200px;
     height: 32vh;
     border: 3px solid #FFF;
